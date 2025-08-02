@@ -1,0 +1,53 @@
+/* * Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* * Css Reset */
+* {
+  /* Html elemanlarÄ±nÄ±n sahip olduÄŸu bazÄ± default margin ve padding deÄŸerleri vardÄ±r.Bu margin ve padding deÄŸerlerinden Ã¶tÃ¼rÃ¼ istediÄŸimiz stillendirmeyi elde edemeyiz.Bunu engeli elemanlarÄ±n default margin ve padding deÄŸerlerini sÄ±fÄ±rlayarak aÅŸabiliriz. */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* * Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.header img{
+width: 150px;
+}
+
+.header .nav {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.header .nav a{
+font-size: 20px;
+text-transform: uppercase;
+color: white;
+transition: all 0.4s;
+}
+
+.header .nav a:hover{
+color: black;
+}
+
+.welcome-section{
+background-image: url("./images/main.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
